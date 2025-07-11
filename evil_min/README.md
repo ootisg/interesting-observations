@@ -82,6 +82,8 @@ When A > B:
 ```
 The rest is the same as before because we now have the correct value in ```tmp```.
 
+---
+  
 I did something a bit different for the ```max()``` function in min.h. Here's a short overview:
 
 It's a goofy way to use the ```min()``` function to compute ```max()```, and it works perfectly well regardless. It exploits some specific properties of bitwise xor:  
